@@ -31,15 +31,11 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'LTEmptyView/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'LTEmptyView' => ['LTEmptyView/Assets/*.png']
-  # }
 
    s.public_header_files = 'LTEmptyView/Classes/**/*.h'
    s.resources = 'LTEmptyView/Assets/*'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
-  s.dependency 'YYImage'
-  s.dependency 'LYEmptyView'
+    s.dependency 'YYImage'
+    s.dependency 'LYEmptyView'
 end

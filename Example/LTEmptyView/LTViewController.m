@@ -20,7 +20,6 @@
 {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor blackColor];
-    [[LTLoadingHelperManager defaultManager] setGifImageName:@"gxs_loading.gif"];
     self.view.ly_emptyView = [LTEmptyViewHelper emptyViewWithErrorType:LTEmptyViewErrorType_NetworkError btnClickBlock:^{
         [LTLoadingHelper showEmptyLoadingHUDWithStatus:@"正在加载中..."];
         dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{

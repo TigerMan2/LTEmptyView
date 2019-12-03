@@ -1,6 +1,7 @@
-use_frameworks!
+#use_frameworks!
 
 platform :ios, '8.0'
+source 'https://github.com/CocoaPods/Specs.git'
 
 target 'LTEmptyView_Example' do
   pod 'LTEmptyView', :path => '../'

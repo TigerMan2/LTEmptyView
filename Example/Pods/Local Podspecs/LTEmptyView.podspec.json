@@ -19,6 +19,14 @@
     "ios": "8.0"
   },
   "source_files": "LTEmptyView/Classes/**/*",
+  "resource_bundles": {
+    "LTEmptyView": [
+      "LTEmptyView/Assets/*"
+    ]
+  },
+  "pod_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES"
+  },
   "public_header_files": "LTEmptyView/Classes/**/*.h",
   "resources": "LTEmptyView/Assets/*",
   "dependencies": {
