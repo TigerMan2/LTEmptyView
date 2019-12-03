@@ -36,7 +36,10 @@ TODO: Add long description of the pod here.
   #   'LTEmptyView' => ['LTEmptyView/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+   s.public_header_files = 'LTEmptyView/Classes/**/*.h'
+   s.resources = 'LTEmptyView/Assets/*'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'YYImage'
+  s.dependency 'LYEmptyView'
 end

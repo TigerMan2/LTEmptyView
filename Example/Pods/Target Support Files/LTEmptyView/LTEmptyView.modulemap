@@ -1,0 +1,6 @@
+framework module LTEmptyView {
+  umbrella header "LTEmptyView-umbrella.h"
+
+  export *
+  module * { export * }
+}

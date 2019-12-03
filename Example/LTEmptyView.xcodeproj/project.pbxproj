@@ -24,6 +24,7 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		969611F97AE7B0B41A3E772B /* Pods_LTEmptyView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFD0EB3BFB6CC36167317796 /* Pods_LTEmptyView_Tests.framework */; };
+		AAF589492396436800F34D1C /* gxs_loading@3x.gif in Resources */ = {isa = PBXBuildFile; fileRef = AAF589482396436800F34D1C /* gxs_loading@3x.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		17C93D4D035D1C997A955D68 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		17C93D4D035D1C997A955D68 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		2BFACC7AAE107FEA28BC51C1 /* Pods-LTEmptyView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LTEmptyView_Example.debug.xcconfig"; path = "Target Support Files/Pods-LTEmptyView_Example/Pods-LTEmptyView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		59A63B98032D7F93D6E2C9A2 /* Pods_LTEmptyView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LTEmptyView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* LTEmptyView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LTEmptyView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,10 +64,11 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		869A12AC673E2F5396F184ED /* Pods-LTEmptyView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LTEmptyView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LTEmptyView_Tests/Pods-LTEmptyView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E7922C8796DEF8FE7D56277F /* LTEmptyView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LTEmptyView.podspec; path = ../LTEmptyView.podspec; sourceTree = "<group>"; };
+		AAF589482396436800F34D1C /* gxs_loading@3x.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "gxs_loading@3x.gif"; sourceTree = "<group>"; };
+		E7922C8796DEF8FE7D56277F /* LTEmptyView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LTEmptyView.podspec; path = ../LTEmptyView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		EFD0EB3BFB6CC36167317796 /* Pods_LTEmptyView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LTEmptyView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F82DF08498F8CD7549B2757F /* Pods-LTEmptyView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LTEmptyView_Tests.release.xcconfig"; path = "Target Support Files/Pods-LTEmptyView_Tests/Pods-LTEmptyView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		FDD9743BB84BAE5D8967243C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		FDD9743BB84BAE5D8967243C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +140,7 @@
 				6003F5A5195388D20070C39A /* LTViewController.h */,
 				6003F5A6195388D20070C39A /* LTViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
+				AAF589482396436800F34D1C /* gxs_loading@3x.gif */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
@@ -193,7 +196,6 @@
 				869A12AC673E2F5396F184ED /* Pods-LTEmptyView_Tests.debug.xcconfig */,
 				F82DF08498F8CD7549B2757F /* Pods-LTEmptyView_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +250,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = wubingjia;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = X4634493CA;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +263,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -280,6 +286,7 @@
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				AAF589492396436800F34D1C /* gxs_loading@3x.gif in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,10 +310,14 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-LTEmptyView_Example/Pods-LTEmptyView_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/LTEmptyView/LTEmptyView.framework",
+				"${BUILT_PRODUCTS_DIR}/LYEmptyView/LYEmptyView.framework",
+				"${BUILT_PRODUCTS_DIR}/YYImage/YYImage.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LTEmptyView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LYEmptyView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYImage.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -494,6 +505,7 @@
 			baseConfigurationReference = 2BFACC7AAE107FEA28BC51C1 /* Pods-LTEmptyView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X4634493CA;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LTEmptyView/LTEmptyView-Prefix.pch";
 				INFOPLIST_FILE = "LTEmptyView/LTEmptyView-Info.plist";
@@ -510,6 +522,7 @@
 			baseConfigurationReference = 63086B9F09865C1109924FC6 /* Pods-LTEmptyView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X4634493CA;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LTEmptyView/LTEmptyView-Prefix.pch";
 				INFOPLIST_FILE = "LTEmptyView/LTEmptyView-Info.plist";

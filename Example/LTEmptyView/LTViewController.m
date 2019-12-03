@@ -7,6 +7,8 @@
 //
 
 #import "LTViewController.h"
+#import <LTEmptyView/LTLoadingHelper.h>
+#import "LTEmptyViewHelper.h"
 
 @interface LTViewController ()
 
@@ -17,7 +19,19 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    self.view.backgroundColor = [UIColor blackColor];
+    [[LTLoadingHelperManager defaultManager] setGifImageName:@"gxs_loading.gif"];
+    self.view.ly_emptyView = [LTEmptyViewHelper emptyViewWithErrorType:LTEmptyViewErrorType_NetworkError btnClickBlock:^{
+        [LTLoadingHelper showEmptyLoadingHUDWithStatus:@"正在加载中..."];
+        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+            [LTLoadingHelper dismiss];
+        });
+    }];
+    [self.view ly_showEmptyView];
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+
 }
 
 - (void)didReceiveMemoryWarning
